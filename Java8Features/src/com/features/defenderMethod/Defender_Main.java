@@ -1,15 +1,15 @@
 package com.features.defenderMethod;
-class Test implements DefenderMethod{
+
+class Defender_Main implements DefenderMethod{
+	
 	@Override
 	public void show() {
 		System.out.println("-- THIS IS SHOW---");
-		
 	}
 	
 	
 	public static void main(String args[]){
-		
-		Test t = new Test();
+		Defender_Main t = new Defender_Main();
 		t.show();
 		t.showDefault();
 	}

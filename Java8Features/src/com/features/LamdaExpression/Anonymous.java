@@ -1,4 +1,4 @@
-package com.features.Lamda;
+package com.features.LamdaExpression;
 
 
 interface Anonymous {
@@ -7,6 +7,8 @@ interface Anonymous {
 }
 
 class test {
+	
+	
 	Anonymous a = new Anonymous() {
 		
 		@Override

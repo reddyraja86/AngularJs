@@ -7,3 +7,5 @@ https://leanpub.com/whatsnewinjava8/read
 FunctionalInterface
 default methods or Defender Methods or Virtual extension methods.
 Lamda Expression
+Interface with static methods
+java.util.stream package - Filter,Map,

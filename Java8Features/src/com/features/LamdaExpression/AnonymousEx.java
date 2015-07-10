@@ -1,4 +1,4 @@
-package com.features.Lamda;
+package com.features.LamdaExpression;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,6 +22,9 @@ public class AnonymousEx {
 				return o1.compareTo(o2);
 			}
 		});
+		
+		
+		Collections.sort(l,(String o1,String o2) -> o1.compareTo(o2) );
 
 		for (String x : l) {
 			System.out.println(x);
